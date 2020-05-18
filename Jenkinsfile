@@ -16,7 +16,7 @@ pipeline{
  	}
  	stage ('Deploy'){
  		steps {
- 				bat 'mvn  package deploy  -Dusername=MSIMULE -Dpassword=MSImule@1 -Denvironment=Sandbox -DmuleDeploy'
+ 				bat 'mvn  package deploy  -Dusername=msianypoint -Dpassword=Alamo$456 -Denvironment=Development -DmuleDeploy'
  			
  		}
  	}
