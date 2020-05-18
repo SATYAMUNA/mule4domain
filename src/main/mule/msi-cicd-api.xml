@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="msi-cicd-apiFlow" doc:id="aa2b6379-ec97-4d3d-b256-ebb16c0e1d2a" >
+		<http:listener doc:name="Listener" doc:id="e52a4710-e3d3-4196-8a4a-0e82ea6be9c9" config-ref="msi-master-httpListenerConfig" path="/cicd"/>
+		<set-payload value="CICD" doc:name="Set Payload" doc:id="0261970b-b6ba-44ba-87ed-f53a021e4ff1" />
+	</flow>
+</mule>
