@@ -59,6 +59,7 @@
             <version>1.0.0-SNAPSHOT</version>
             <classifier>mule-domain</classifier>
             <scope>system</scope>
+            <systemPath>extDependency.jar</systemPath>
         </dependency>
 		
     </dependencies>
