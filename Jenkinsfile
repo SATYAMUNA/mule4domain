@@ -10,7 +10,7 @@ pipeline{
  	stage ('Build'){
  		steps {
 		
- 				bat 'mvn clean package -nsu -DskipMunitTests'
+ 				bat 'mvn -U clean install'
  			
  		}
  	}
