@@ -35,10 +35,16 @@
       <environment>Development</environment>
       
     </armDeployment>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+				<sharedLibraries>
+                        <sharedLibrary>
+                            <groupId>com.msi</groupId>
+                            <artifactId>msi-domain-1-0-1.0.0-SNAPSHOT-mule-domain.jar</artifactId>
+                        </sharedLibrary>
+                    </sharedLibraries>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 	<dependencies>
         <dependency>
