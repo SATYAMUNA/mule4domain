@@ -15,7 +15,7 @@
 
 <app.runtime>4.2.0</app.runtime>
 <mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
-        <basedir>C:\Users\Satyabrata\Desktop\Domain</basedir>
+        <basedir1>C:\Users\Satyabrata\Desktop\Domain</basedir1>
 </properties>
 
 <build>
@@ -60,7 +60,7 @@
             <version>1.0.0-SNAPSHOT</version>
             <classifier>mule-domain</classifier>
             <scope>system</scope>
-    <systemPath>${basedir}\msi-domain-1-0-1.0.0-SNAPSHOT-mule-domain.jar</systemPath>
+    <systemPath>${basedir1}\msi-domain-1-0-1.0.0-SNAPSHOT-mule-domain.jar</systemPath>
         </dependency>
 
     </dependencies>
