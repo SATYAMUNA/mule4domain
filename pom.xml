@@ -59,7 +59,7 @@
             <artifactId>msi-domain-1-0</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <classifier>mule-domain</classifier>
-            <scope>system</scope>
+            <scope>provided</scope>
     <systemPath>${basedir}\msi-domain-1-0-1.0.0-SNAPSHOT-mule-domain.jar</systemPath>
         </dependency>
 
