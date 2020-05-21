@@ -10,7 +10,7 @@ pipeline{
  	stage ('Build'){
  		steps {
 		
- 				bat 'mvn package -DattachMuleSources'
+ 				bat 'mvn package install'
  			
  		}
  	}
