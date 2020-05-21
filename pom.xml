@@ -15,7 +15,7 @@
 
 <app.runtime>4.2.0</app.runtime>
 <mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
-        <basedir>C:\Users\Satyabrata\Desktop\Mule 4 Migration\DefaultApps\Mule4Code\New Domain\New\Added VM\Minimal Dep\Downgrade the DB Version</systemPath>
+        <basedir>C:\Users\Satyabrata\Desktop\Domain</systemPath>
 </properties>
 
 <build>
