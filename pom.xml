@@ -29,11 +29,11 @@
     <armDeployment>
       <muleVersion>4.2.0</muleVersion>
       <uri>https://anypoint.mulesoft.com</uri>
-      <target>SIT</target>
-      <targetType>server</targetType>
-      <username>MSIMULE</username>
-      <password>MSImule@1</password>
-      <environment>Sandbox</environment>
+      <target>WSAPI1-Dev-Cluster</target>
+      <targetType>cluster</targetType>
+      <username>msianypoint</username>
+      <password>Alamo$456</password>
+      <environment>Development</environment>
      
     </armDeployment>
 </configuration>
@@ -64,7 +64,10 @@
             <version>1.1.5</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-
+<dependency>
+                <groupId>com.msi</groupId>
+            <artifactId>msi-domain-1-0</artifactId>
+            </dependency>
     </dependencies>
 
 <repositories>
