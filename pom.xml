@@ -19,6 +19,7 @@
 </properties>
 
 <build>
+	<plugins>
 				<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
@@ -43,6 +44,7 @@
 					</execution>
 				</executions>
 			</plugin>
+		<plugins>
 </build>
 
 <dependencies>
