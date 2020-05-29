@@ -37,6 +37,14 @@
  
  </armDeployment>
 </configuration>
+	<executions>
+<execution>
+<id>deploy</id>
+<phase>deploy</phase>
+<goals>
+<goal>deploy</goal>
+</goals>
+</execution>
 </plugin>
 </plugins>
 </build>
