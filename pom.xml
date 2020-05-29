@@ -41,8 +41,8 @@
 						<goals>
 							<goal>deploy</goal>
 						</goals>
-					</execution> -->
-				</executions>
+					</execution> 
+				</executions> -->
 			</plugin>
 		</plugins>
 </build>
