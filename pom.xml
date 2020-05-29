@@ -34,14 +34,14 @@
 					<targetType>server</targetType>
 					<environment>Sandbox</environment>
 				</configuration>
-				<executions>
+				<!--<executions>
 					<execution>
 						<id>deploy</id>
 						<phase>deploy</phase>
 						<goals>
 							<goal>deploy</goal>
 						</goals>
-					</execution>
+					</execution> -->
 				</executions>
 			</plugin>
 		</plugins>
