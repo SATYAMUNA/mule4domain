@@ -19,26 +19,29 @@
 </properties>
 
 <build>
-<plugins>
-<plugin>
-<groupId>org.mule.tools.maven</groupId>
-<artifactId>mule-maven-plugin</artifactId>
-<version>${mule.maven.plugin.version}</version>
-<extensions>true</extensions>
-<configuration>
-    <armDeployment>
-      <muleVersion>4.2.0</muleVersion>
-      <uri>https://anypoint.mulesoft.com</uri>
-      <target>DEV</target>
-      <targetType>server</targetType>
-      <username>MSIJENKIN</username>
-      <password>MYnoki@523@</password>
-      <environment>Sandbox</environment>
-     
-    </armDeployment>
-</configuration>
-</plugin>
-</plugins>
+				<groupId>org.mule.tools.maven</groupId>
+				<artifactId>mule-maven-plugin</artifactId>
+				<version>2.0</version>
+				<extensions>true</extensions>
+				<configuration>
+					<deploymentType>arm</deploymentType>
+					<applicationName>msi-cicd-api</applicationName>
+					<username>MSIJENKIN</username>
+					<password>MYnoki@523@</password>
+					<target>DEV</target>
+					<targetType>server</targetType>
+					<environment>Sandbox</environment>
+				</configuration>
+				<executions>
+					<execution>
+						<id>deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 </build>
 
 <dependencies>
